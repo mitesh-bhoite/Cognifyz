@@ -5,6 +5,7 @@ body {
   background-color: lightblue;
 }
 
+
 @media (max-width: 768px) {
   body {
     background-color: black;
@@ -32,3 +33,4 @@ body {
     font-size: 12px;
   }
 }
+
