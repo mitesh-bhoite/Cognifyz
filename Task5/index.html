@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+  </head>
+  <body>
+    <h1>Random Post</h1>
+    <button onclick="fetchData()">Get Post</button>
+    <div id="output"></div>
+
+    <script>
+      function fetchData() {
+        fetch("https://jsonplaceholder.typicode.com/posts/1")
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById(
+              "output"
+            ).innerHTML = `<h2>${data.title}</h2><p>${data.body}</p>`;
+          })
+          .catch((error) => console.error("Error:", error));
+      }
+    </script>
+  </body>
+</html>
