@@ -12,6 +12,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     document.getElementById("nameError").innerText = "";
   }
 
+  
   if (email.trim() === "" || !email.includes("@")) {
     document.getElementById("emailError").innerText = "Enter a valid email.";
     valid = false;
