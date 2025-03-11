@@ -3,6 +3,7 @@
 ## Overview
 This repository contains the tasks I completed during my internship at **Cognifyz**. The internship focused on **HTML, CSS, and JavaScript**, allowing me to enhance my front-end development skills while working on various projects.
 
+
 ## Tasks Completed
 During the internship, I successfully completed **7 tasks**, each focusing on different aspects of web development
 
